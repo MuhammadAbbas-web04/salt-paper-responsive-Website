@@ -1,0 +1,56 @@
+#iconn{
+    color: white;
+    display: none;
+    font-size: 30px;
+}
+
+
+
+@media(max-width:720px){
+    #iconn{
+        display: block;
+        
+
+    }
+    #img{
+        display: flex ;
+        justify-content: center;
+
+    }
+    .hide{
+        display: none;
+
+
+    
+    }
+    .with{
+        width: 80%;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    #img-1{
+        display: block;
+    }
+    .center{
+        text-align: center;
+    }
+    .stretch-0{
+        width: 65%;
+        height: 85%;
+    }
+    .gap-g{
+        gap: 10px;
+    }
+    .font-t{
+        font-size: 10px;
+    }
+    
+
+}
+@media(min-width:720px){
+    #nav{
+        display: none;
+    }
+    
+}
