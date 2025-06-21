@@ -52,6 +52,15 @@ src: url(futurak\ \(2\).ttf );
    
 }
 
+.order-image{
+width: 100%;
+height: 150px;
+border-radius: 10px;
+
+
+
+}
+
 .block{
     display: flex;
     padding-top: 20px;
@@ -146,6 +155,7 @@ src: url(futurak\ \(2\).ttf );
     width: 80%;
 }
 
+
 #click {
     display: none;
 }
@@ -169,6 +179,8 @@ src: url(futurak\ \(2\).ttf );
     .navbar img {
         width: 100%;
     }
+
+
 
 
 
@@ -214,6 +226,7 @@ src: url(futurak\ \(2\).ttf );
     gap: 50px;
     padding-bottom: 100px;
     padding-top: 20px;
+ 
 }
 
 .image-div img {
@@ -221,6 +234,17 @@ src: url(futurak\ \(2\).ttf );
     background-color:var(--white);
     padding: 15px;
 }
+
+
+ .img{
+border-radius: 10px;
+
+
+
+ }
+
+
+
 
 .salt {
     text-align: center;
@@ -566,4 +590,42 @@ font-size: 1.5rem;
     .mein-last h6{
         text-align: center;
     }
+}
+
+.snp-main{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.spn-2025{
+font-size: 1.7rem;
+color:var(--light-gray);
+position: relative;
+left: 290px;
+bottom: 10px;
+}
+
+.spn-2025{
+color: var(--light-gray);
+font-weight: 400;
+
+}
+
+
+
+
+
+
+
+.tossdown{
+text-decoration: none;
+color: var(--light-gray);
+font-family: "Inter", sans-serif;
+font-size: 1.3rem;
+font-weight: 400;
+position: relative;
+right: 400px;
+top: 3px;
 }
